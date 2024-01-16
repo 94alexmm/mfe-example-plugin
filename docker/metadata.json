@@ -1,0 +1,14 @@
+{
+"name":"Example chart plugin",
+"version":"0.0.1",
+"configuration:[
+{"name":"wsStreamUrl",
+"label":"Web Socket Stream URL",
+"type":"string"
+},
+{"name":"isHelpIconVisible",
+"label":"Show Help Icon",
+"type":"boolean"
+}
+]
+}
