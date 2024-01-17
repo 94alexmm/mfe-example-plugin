@@ -31,7 +31,8 @@ module.exports = {
         name: "mfeChartPlugin",
         filename: "remoteEntry.js",
         exposes: {
-            './mfeChart': './/src/app/app.component.ts',
+            './mfe-bar-chart': './/src/app/mfe-bar-chart/mfe-bar-chart.component.ts',
+            './mfe-line-chart': './/src/app/mfe-line-chart/mfe-line-chart.component.ts',
         },        
 
 
